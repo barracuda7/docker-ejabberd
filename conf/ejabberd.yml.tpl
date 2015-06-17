@@ -45,7 +45,6 @@ listen:
     {%- if env['EJABBERD_STARTTLS'] == "true" %}
     starttls_required: true
     {% endif %}
-    protocol_options:
     max_stanza_size: 65536
     shaper: c2s_shaper
     access: c2s
