@@ -231,17 +231,17 @@ modules:
   mod_privacy: {}
   mod_private: {}
   ## mod_proxy65: {}
-  mod_pubsub:
-    access_createnode: pubsub_createnode
+  ##mod_pubsub:
+  ##  access_createnode: pubsub_createnode
     ## reduces resource comsumption, but XEP incompliant
-    ignore_pep_from_offline: true
+  ##  ignore_pep_from_offline: true
     ## XEP compliant, but increases resource comsumption
     ## ignore_pep_from_offline: false
-    last_item_cache: false
-    plugins:
-      - "flat"
-      - "hometree"
-      - "pep" # pep requires mod_caps
+    ##last_item_cache: false
+    ##plugins:
+    ##  - "flat"
+    ##  - "hometree"
+    ##  - "pep" # pep requires mod_caps
   mod_register:
     ##
     ## Protect In-Band account registrations with CAPTCHA.
