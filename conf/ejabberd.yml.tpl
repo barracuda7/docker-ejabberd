@@ -46,8 +46,6 @@ listen:
     starttls_required: true
     {% endif %}
     protocol_options:
-      - "no_sslv3"
-      - "no_tlsv1"
     max_stanza_size: 65536
     shaper: c2s_shaper
     access: c2s
